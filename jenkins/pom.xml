@@ -3,7 +3,8 @@
   <groupId>com.qspider</groupId>
   <artifactId>jenkins</artifactId>
   <version>0.0.1-SNAPSHOT</version>
-  	<dependency>
+  	<dependencies>
+		<dependency>
 			<groupId>org.testng</groupId>
 			<artifactId>testng</artifactId>
 			<version>7.1.0</version>
@@ -15,12 +16,15 @@
 			<artifactId>poi</artifactId>
 			<version>5.2.3</version>
 		</dependency>
-
-		<dependencies>
-			<dependency>
-				<groupId>com.tricentis</groupId>
-				<artifactId>DemoWebShop</artifactId>
-				<version>0.0.1-SNAPSHOT</version>
-			</dependency>
+		<dependency>
+			<groupId>org.apache.poi</groupId>
+			<artifactId>poi-ooxml</artifactId>
+			<version>5.2.3</version>
+		</dependency>
+		<dependency>
+			<groupId>com.aventstack</groupId>
+			<artifactId>extentreports</artifactId>
+			<version>LATEST</version>
+		</dependency>
 		</dependencies>
 </project>
